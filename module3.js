@@ -22,8 +22,39 @@
 // }
 
 //practice 4
-var mySelf={firstName:"Md.Ibrahim", lastName:"khalil",age:"29",test:"5555"};
-for (props in mySelf)
+
+/*const mySelf = {firstName: "Md.Ibrahim", lastName: "khalil", age: "29", test: "5555"};
+for (let props in mySelf)
 {
     console.log(mySelf[props]);
+}*/
+/*const array1= [1,2,3,4,5,9,8,10]
+const array2=[5,6,93,96,39,66,6]
+
+const array3=[...array1,...array2]
+
+const copyArray=array3;
+copyArray.push(1000)
+
+
+console.log(array3)
+console.log("======>",copyArray)*/
+
+
+/*
+function add(...numbers) {
+    return numbers.reduce((acc, val) => acc + val,5);
 }
+console.log(add(1,3,5))*/
+
+
+/*const add= (...numbers) =>{
+    return numbers.reduce((acc,val)=>acc+val,0)
+}
+console.log(add(2,3,6))*/
+
+function  add(...numbers) {
+    return numbers.reduce((acc,val)=>acc+val,0)
+
+}
+console.log(add(1,3))
